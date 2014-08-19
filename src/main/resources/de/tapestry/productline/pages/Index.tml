@@ -6,6 +6,11 @@
     <p>${message:greeting}</p>
 
 	<p>
+		<t:pagelink page="index" context="literal:productOne">Select first product</t:pagelink><br/>
+		<t:pagelink page="index" context="literal:productTwo">Select second product</t:pagelink><br/>
+	</p>
+
+	<p>
 		${message:goodbye}
 	</p>
 
